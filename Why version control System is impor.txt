@@ -65,13 +65,14 @@ after modifing something on local project then command to push new as
 'git status - for cheking files get add or not
 'git commit -m "comments"
 
-for connect local project to remote directory 
+for connect local project from remote directory 
 'git init
 'git add .
 'git status 
 copy url from remote repository 
 'git commit -m "comment"
 'git remote add origin URL
+'git pull origin master
 
 to check in which brach we are working
 'git branch 
