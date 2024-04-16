@@ -77,5 +77,3 @@ to check in which brach we are working
 'git branch 
 to rename branch
 'git branch -M NEWNAME
-
-branch 
