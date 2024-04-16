@@ -1,0 +1,81 @@
+Why version control System is important in developement
+: 1) Collabration between team which are working on the same project from different regions
+  2) Storing versions - project is not completed in one version it takes n number of versions
+  3) Backup of versions
+
+what is version control
+:A version control system records all changes made to a file or set files, so a specific version may be called later if needed
+- A system makes sure that all the teams members are working on the latest version of the file.
+
+
+#different types VCS
+
+difference between CVCS and DVCS
+
+1-On CVCS we directly work on the file of remote repository and we can directly commit and update the branch on the remote repository.
+2-on DVCS it created local repository on the system and has backup and history locally. We need to push and pull local repository and from working file need to commit and update the local repo.
+3-DVCS is faster than CVCS
+4- 
+
+Centralized Version Control Systems (CVCS):
+
+1. Subversion (SVN): Subversion is one of the most well-known centralized version control systems. It uses a central repository to store files and their complete version history. Users check out files from this central repository to make changes and then commit those changes back to the repository.
+
+2. Perforce: Perforce is another widely used centralized version control system, particularly in enterprise environments. It offers robust versioning capabilities and is optimized for handling large binary files.
+
+3. IBM Rational ClearCase: ClearCase is a centralized version control system that provides features for configuration management, version control, and parallel development.
+
+Distributed Version Control Systems (DVCS):
+
+1. Git: Git is the most popular distributed version control system. Each user has a complete copy of the repository, including its full history, on their local machine. This allows for faster operations, offline work, and more flexible branching and merging.
+
+2. Mercurial: Mercurial is another distributed version control system that shares many similarities with Git. It offers an intuitive command-line interface and is known for its scalability and performance.
+
+3. Bazaar: Bazaar is a distributed version control system developed by Canonical, known for its ease of use and flexibility. It supports multiple workflows and is suitable for projects of varying sizes.
+
+4. Darcs: Darcs is a unique distributed version control system that focuses on a patch-based approach to recording changes. It allows users to pull changes directly from other repositories, making it decentralized in nature.
+
+
+**Installation of git is already done**
+
+**configure name and email by commands
+
+'git config --global user.name "your_email@example.com"
+'git config --global user.email "your_email@example.com"
+
+**SSH key set has been done by using coomands on git bash
+
+'ssh-keygen -t ed25519 -C "email@id.com"
+copy the public ssh key 
+after that open github setting and ssh and create new ssh and paste the key id
+ 
+**connect the project with git using commands 
+'git init
+'git add.
+'git commit -m "nameany"
+
+after that create new repo on github and copy the url to connect to the local repo 
+'git remote add origin URL
+'git push --set-upstream origin master
+
+the project get push on the remote repo on master branch
+after modifing something on local project then command to push new as
+'git status  - for knowing which file are changes
+'git add . - for adding new file to push 
+'git status - for cheking files get add or not
+'git commit -m "comments"
+
+for connect local project to remote directory 
+'git init
+'git add .
+'git status 
+copy url from remote repository 
+'git commit -m "comment"
+'git remote add origin URL
+
+to check in which brach we are working
+'git branch 
+to rename branch
+'git branch -M NEWNAME
+
+branch 
