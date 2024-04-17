@@ -74,7 +74,40 @@ copy url from remote repository
 'git remote add origin URL
 'git pull origin master
 
-to check in which brach we are working
+**to check in which brach we are working
+
 'git branch 
 to rename branch
 'git branch -M NEWNAME
+to enter into new brach from current branch
+'git checkout BRANCHNAME
+to create new branch
+'git checkout -b NEWBRANCHNAME
+to delete git branch 
+'git branch -d branchname
+
+## If we created branches and write diff code them they are reflected on remote repo after push request
+'git diff name_of_2nd_branch
+
+## mearge the braches 
+There are two ways to merge the braches
+1. If we working on the project so we need to give PR (pull request) to the senior developer and after reviewing out brach it going to merge.
+2.Direct campare and pull directly from remote repository.
+-some times if both braches have diff code on the same line so it conflict the error to resolve it we can manually select the changes
+
+command to merge branches
+'git merge second_branch
+
+## for undo the changes
+1.for undo the changes when we are only add the changes 
+'git reset  -for all changes
+'git reset filename  -for selected files
+
+'git log   -to check all commits
+
+
+2.undo the changes when we are commit the change and only want to undo last commit (HEAD)
+'git reset HEAD~1
+
+3.undo selected commit run git log command to check hash code of selected commit and copy
+'git reset HashCodeofCommit
