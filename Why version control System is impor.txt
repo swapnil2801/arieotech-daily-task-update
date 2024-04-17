@@ -48,6 +48,8 @@ Distributed Version Control Systems (DVCS):
 'ssh-keygen -t ed25519 -C "email@id.com"
 copy the public ssh key 
 after that open github setting and ssh and create new ssh and paste the key id
+for clonning the any repository now copy the ssh URL from remote repository
+'git clone URL - all files of project get downloaded and connected
  
 **connect the project with git using commands 
 'git init
@@ -104,7 +106,6 @@ command to merge branches
 'git reset filename  -for selected files
 
 'git log   -to check all commits
-
 
 2.undo the changes when we are commit the change and only want to undo last commit (HEAD)
 'git reset HEAD~1
