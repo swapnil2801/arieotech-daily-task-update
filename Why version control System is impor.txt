@@ -112,3 +112,61 @@ command to merge branches
 
 3.undo selected commit run git log command to check hash code of selected commit and copy
 'git reset HashCodeofCommit
+
+17-04-2024
+
+#Branching in deapth##
+
+Do multiple changes and 'git add . and 'git commit -m "comment" multiple times
+*to check all history of commits
+- 'git log  or   'git log --all --graph  pree 'q' to exit
+'git branch NEWBRANCHNAME    - to create new branch
+'git checkout BRANCHNAME  - to change from one branch to another
+
+So created multiple branches with multiple changes so we need to merge some where the branches
+
+# Merging the braches
+
+direct merge two braches with command 
+'git merge <brachname> -m "comment"
+If there was conflict in the branches code then we have to select manually the code from the files which is going to be merge eith the branch and them run same command
+'git merge <brachname> -m "comment"
+
+
+!##!Feature branch WorkFlow!##!
+
+--Steps of feature brach workflow
+
+1.Create a feature branch
+-create a new branch on git 
+2.Upload feature branch to github
+-Upload to github feature branch
+-when we upload we need to provide local branch name like origin
+- command - 'git remote add origin URL
+3.Create a "Pull Request" (Do code reviews)
+-For pull request git hub directly provide button or do mannually goes into pull request section from your GitHub accound and create a new pull request 
+-where we raised the pull request and people see the changes and approved or comment aon that.
+4.Merge the feature branch into master/main branch
+-after approved the PR then we directly merge the Brach to the master brach just by clicking on the merge button
+
+!##! Update local repository from remote remote repositories
+'get fetch   - to fetch the changes
+and pull the all changes from remote to local
+'get pull origin(remote repository branch) master(local repo branch name)
+
+**Merge the conflict in Feature branch workflow**
+
+-when the two developers working on different braches of the same project file and change the code and one of them merge sun brach to main brach and then when second developer trying to merge his brach to main brach then conflict was created on the github web,because both are working on the same file and chaging same lines of the code .We can solved it by changing on the web editor same like vs code
+
+## Resolving merge conflicts on computer ## 
+
+-resolve conflict on computer
+-firtly pull on local machine
+-go into branch that we want to merge
+-'git merge master 
+-then do manually from machin vs code
+-then add and commit the branch
+-then push 'git push origin feature4
+
+# To remove the files from the local repository 
+- 'rm -fr .git
