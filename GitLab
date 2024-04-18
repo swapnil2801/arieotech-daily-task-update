@@ -1,0 +1,12 @@
+## Created account on the GitLab ##
+
+1.Created local repo using git
+- git init
+- git add .
+- git commit -m "comment"
+- git remote add origin URL - where URL is from GitLab project HTTPS
+- git push origin master
+* After that changes are going to affect on remote repo
+* Same for the push data from remote repo to local ,if we have change something on remote repo.
+- git push origin master
+
