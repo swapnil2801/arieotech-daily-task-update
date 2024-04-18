@@ -58,9 +58,7 @@ Some basic knowladge of Custom domains
 
     Step 4: Check runner is started in the project
 
-<<<<<<< HEAD
 ## CI/CD connect using runner
-=======
 ## CI/CD in gitLab create job and run pipeline
 
 1 : Create one project on GitLab 
@@ -70,4 +68,3 @@ Some basic knowladge of Custom domains
 5 : After creating runner start it.
 6 : Then make changes in local directory and push them.
 7 : After pushing the changes jobs are directly run atomatically
->>>>>>> a0064612d12c202e6def66e4effcef58c59ec707
