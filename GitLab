@@ -1,3 +1,16 @@
+## Task 2 
+You should be able to do below
+Create a repo in GitLab
+Add users in GitLab
+Put branch rules in GitLab so no one can merge the PR without approval
+CI/CD to deploy the API to Azure Funcaiton/App Service
+CI/CD to deploy a UI on Azure Static web app
+Create a static web app
+Create a RDS
+Create a VM and Install SQL Express on it
+Some basic knowladge of Custom domains
+
+
 ## Created account on the GitLab ##
 
 1.Created local repo using git
@@ -9,6 +22,13 @@
 * After that changes are going to affect on remote repo
 * Same for the push data from remote repo to local ,if we have change something on remote repo.
 - git push origin master
+
+## Add User to the project
+
+- Go to project 
+- select the manage option form left hand side.
+- Then jump into members option
+- Then add user by emai id ,import from other project ,or invite the group
 
 ## Runner installation and configuration
 
@@ -26,11 +46,28 @@
     Step 2: Register GitLab Runner
     (process to bind runner with gitlab instance)
     https://docs.gitlab.com/runner/regist...
-    gitlab-runner.exe register
+    Create new runner for new project
+    1- gitlab-runner.exe register
+    2- GitLab instamce URL copy and paste from cmd
+    3- Copy the registration code from runner section of the projet
+    4- enter tags 
+    5- Select an executor and then done
 
     Step 3: Start GitLab Runner
     gitlab-runner.exe start
 
     Step 4: Check runner is started in the project
 
+<<<<<<< HEAD
 ## CI/CD connect using runner
+=======
+## CI/CD in gitLab create job and run pipeline
+
+1 : Create one project on GitLab 
+2 : connect it to the remote repo 
+3 : create .gitlab-ci.yml file add this file into root folder of the project and push that file
+4 : create runner for that project 
+5 : After creating runner start it.
+6 : Then make changes in local directory and push them.
+7 : After pushing the changes jobs are directly run atomatically
+>>>>>>> a0064612d12c202e6def66e4effcef58c59ec707
