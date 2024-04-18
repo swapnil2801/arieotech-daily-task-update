@@ -32,3 +32,5 @@
     gitlab-runner.exe start
 
     Step 4: Check runner is started in the project
+
+## CI/CD connect using runner
