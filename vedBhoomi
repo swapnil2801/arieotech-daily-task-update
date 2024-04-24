@@ -1,0 +1,23 @@
+1 : Created Group on GitLab 
+2 : Invite Users inside the group 
+3 : Create 5 project on vedBhoomi Group
+4 : Create 3 branches on UserApi project
+5 : Push first zip file code (recieved from sarthak) on the UserApi project develop branch
+
+ procedure to push 
+-create one folder name vedbhoomi
+-copgity the clone url from remote repo
+  -  git clone --branch develop git@gitlab.com:vedbhoomi/vedbhoomi_user_api.git
+  -  git status
+  -  git init
+  -  git status
+  -  cd vedbhoomi_user_api/
+  -  cls
+  -  clear
+  -  git status
+  -  git add .
+  -  git commit -m "initial status"
+  -  git push origin develop
+
+
+ - need to learn q
