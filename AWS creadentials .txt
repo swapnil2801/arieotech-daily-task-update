@@ -1,0 +1,15 @@
+AWS creadentials :
+URL : https://865669915325.signin.aws.amazon.com/console
+username : swapnil.patil
+Pass : gD16s'KxA}'9'Tswp
+Multifactor Auth-
+device name : SwapSecGuard
+
+
+
+Databse RDS creadentials for PostGreas
+username : pgadmin
+pass : OW088M3clZuovZTn
+
+
+URL for AWS calculations : http://calculator.aws/#/

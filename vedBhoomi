@@ -21,3 +21,39 @@
 
 
  - need to learn q
+
+## DIFFERENT TOOLS FOR CODE BUILD AND CODE DEPLOY ##
+
+ Certainly! AWS CodeBuild and AWS CodeDeploy are popular services used in DevOps workflows for building and deploying applications on AWS. While these services are provided by AWS, there are several third-party tools and services that integrate with them to enhance their functionality. Here's a list of some third-party services commonly used with AWS CodeBuild and AWS CodeDeploy:
+
+**Third-party services for AWS CodeBuild:**
+
+1. **GitHub:** GitHub is a widely used code hosting platform that integrates seamlessly with CodeBuild. You can trigger builds based on code commits, pull requests, or other events in your GitHub repositories.
+
+2. **GitLab:** GitLab is another popular Git repository management platform that supports integration with CodeBuild. Similar to GitHub, you can trigger builds based on GitLab events.
+
+3. **Bitbucket:** Bitbucket, provided by Atlassian, offers Git and Mercurial code management services. It also integrates with CodeBuild to trigger builds based on repository events.
+
+4. **Jenkins:** Jenkins is a leading open-source automation server that supports building, deploying, and automating projects. It can be integrated with CodeBuild to trigger builds and manage the CI/CD pipeline.
+
+5. **CircleCI:** CircleCI is a cloud-based CI/CD platform that offers integration with AWS CodeBuild. You can use CircleCI to automate your build processes and trigger builds on AWS infrastructure.
+
+6. **Travis CI:** Travis CI is another cloud-based CI/CD service that integrates with AWS CodeBuild. It allows you to automate the testing and deployment of your applications hosted on AWS.
+
+7. **Azure DevOps:** Microsoft's Azure DevOps provides a suite of development tools, including version control, CI/CD pipelines, and more. It can integrate with AWS CodeBuild to enable building and deploying applications on AWS infrastructure.
+
+**Third-party services for AWS CodeDeploy:**
+
+1. **GitHub Actions:** GitHub Actions is a CI/CD workflow automation tool provided by GitHub. It can be used to deploy applications to AWS CodeDeploy, enabling continuous delivery directly from your GitHub repositories.
+
+2. **GitLab CI/CD:** GitLab CI/CD offers built-in continuous integration and continuous deployment capabilities. It supports deploying applications to AWS CodeDeploy as part of your GitLab pipelines.
+
+3. **Jenkins:** Jenkins can be configured to deploy applications to AWS CodeDeploy as part of your CI/CD pipelines. You can use Jenkins plugins or scripts to interact with the AWS CodeDeploy API for deployment.
+
+4. **Bamboo:** Bamboo is a continuous integration and deployment server provided by Atlassian. It supports deploying applications to AWS CodeDeploy, allowing you to automate your release process.
+
+5. **Octopus Deploy:** Octopus Deploy is a deployment automation tool that can integrate with AWS CodeDeploy. It provides advanced deployment features such as multi-tenant deployments, rolling deployments, and more.
+
+6. **Spinnaker:** Spinnaker is an open-source continuous delivery platform that supports deploying applications to various cloud providers, including AWS. It can be configured to use AWS CodeDeploy as one of its deployment targets.
+
+These are just a few examples of third-party services that integrate with AWS CodeBuild and AWS CodeDeploy to enhance your DevOps workflows. Depending on your specific requirements and preferences, you may find other tools and services that suit your needs.
