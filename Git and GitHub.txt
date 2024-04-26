@@ -1,6 +1,6 @@
 Why version control System is important in developement
 : 1) Collabration between team which are working on the same project from different regions
-  2) Storing versions - project is not completed in one version it takes n number of versions
+  2) Storing versions - project is not completed in one version it takes n nxumber of versions
   3) Backup of versions
 
 what is version control
