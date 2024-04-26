@@ -1,0 +1,33 @@
+* Fork the one react project on GitLab
+* Create new File name as .gitlab-ci.yml
+* Create 3 jobs for pipeline named build - test - deploy
+* Write script to build code on GitLab pipeline 
+* Write script to test the code was build or not 
+* Create S3 bucket on AWS services 
+    - set purmessions to public 
+    - Edit bucket policy
+    - copy the path of bucket.
+* Create on user on IAM service and copy Access key Id ,Aws default region and aws secret key 
+* Create 4 variables
+    - ACCESS_KEY_ID 
+    - AWS_DEFAULT_REGION  
+    - AWS_SECRET_KEY 
+* And provide all sources to it
+* Write the script to upload the build folder on AWS s3 bucket 
+* After uploading the website was host
+    - host  on http://my-react-files-2801.s3-website.ap-south-1.amazonaws.com
+* Set the rule for the code is not merge directly to the main branch 
+    - rules:
+        - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+            - where $CI_COMMIT_REF_NAME is current branch name
+            -       $CI_DEFAULT_BRANCH is for main branch name
+
+* After this rules we are not able to trigger the deploy stage on other branches
+* Only two stages run on Feature1 branch 
+* After merging then three stages are run for the main branch including deploy stage
+* We can also create variables in .gitlab-ci.yml file
+    - variables:
+        ANY_NAME: value
+
+* Create on more stage called Production stage
+    - To verify the hosted url is running or not
