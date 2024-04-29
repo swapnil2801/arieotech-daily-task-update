@@ -13,3 +13,5 @@ pass : OW088M3clZuovZTn
 
 
 URL for AWS calculations : http://calculator.aws/#/
+
+Jira softaware Pass : Swapnil@28012001

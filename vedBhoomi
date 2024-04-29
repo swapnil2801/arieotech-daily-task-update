@@ -57,3 +57,8 @@
 6. **Spinnaker:** Spinnaker is an open-source continuous delivery platform that supports deploying applications to various cloud providers, including AWS. It can be configured to use AWS CodeDeploy as one of its deployment targets.
 
 These are just a few examples of third-party services that integrate with AWS CodeBuild and AWS CodeDeploy to enhance your DevOps workflows. Depending on your specific requirements and preferences, you may find other tools and services that suit your needs.
+
+
+Research on AWS free tier services
+learn amplify to deploy react UI
+learn to lambda to deploy backend

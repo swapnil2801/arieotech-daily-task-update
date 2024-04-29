@@ -32,4 +32,9 @@
 * Create on more stage called Production stage
     - To verify the hosted url is running or not
 
-3.30 jj s
+* Usage of extend tag to use single function in multiple stages:
+    - .stage
+        script
+
+    executable_stage
+        - extends: .deploy
